@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='formulaire.css') }}">
+    <title>HeartWise|formpage</title>
+</head>
+<body>
+    <h1>Heart Disease Risk Assessment Form</h1>
+    <div class="container">
+        <div class="image">
+            <img src="{{ url_for('static', filename='images/med.jpg') }}" alt="">
+        </div>
+        <form action="/submit" method="post">
+           
+            <div class="row">
+                <div class="form-group">
+                    <label for="age">Age:</label>
+                    <input type="number" id="age" name="age" min="0" max="120" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="sex">Sex:</label>
+                    <select id="sex" name="sex" required>
+                      <option value="1">Male</option>
+                      <option value="0">Female</option>
+                    </select>
+                  </div>
+    
+            </div>
+            <div class="row">
+                <div class="form-group">
+                    <label for="trestbps">Resting Blood Pressure (mmHg):</label>
+                    <input type="number" id="trestbps" name="trestbps" required>
+                  </div>
+                <div class="form-group">
+                    <label for="cp">Chest Pain Type:</label>
+                    <select id="cp" name="cp" required>
+                      <option value="0">Typical Angina</option>
+                      <option value="1">Atypical Angina</option>
+                      <option value="2">Non-Anginal Pain</option>
+                      <option value="3">Asymptomatic</option>
+                    </select>
+                  </div>
+            
+                 
+            </div>
+            <div class="row">
+                
+                <div class="form-group">
+                    <label for="chol">Cholesterol Level (mg/dL):</label>
+                    <input type="number" id="chol" name="chol" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="fbs">Fasting Blood Sugar &gt; 120 mg/dL:</label>
+                    <select id="fbs" name="fbs" required>
+                      <option value="1">Yes</option>
+                      <option value="0">No</option>
+                    </select>
+                  </div>
+            
+                 
+            </div>
+            <div class="row">
+               
+            
+                  <div class="form-group">
+                    <label for="thalach">Maximum Heart Rate Achieved:</label>
+                    <input type="number" id="thalach" name="thalach" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="restecg">Resting ECG Results:</label>
+                    <select id="restecg" name="restecg" required>
+                      <option value="0">Normal</option>
+                      <option value="1">ST-T Abnormality</option>
+                      <option value="2">Left Ventricular Hypertrophy</option>
+                    </select>
+                  </div>
+            
+            </div>
+            <div class="row">
+                
+            
+                  <div class="form-group">
+                    <label for="oldpeak">ST Depression:</label>
+                    <input type="number" step="0.1" id="oldpeak" name="oldpeak" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="exang">Exercise-Induced Angina:</label>
+                    <select id="exang" name="exang" required>
+                      <option value="1">Yes</option>
+                      <option value="0">No</option>
+                    </select>
+                  </div>
+            </div>
+    
+            <div class="row">
+                <div class="form-group">
+                    <label for="ca">Number of Major Vessels (0-4):</label>
+                    <input type="number" id="ca" name="ca" min="0" max="4" required>
+                  </div>
+                <div class="form-group">
+                    <label for="slope">Slope of ST Segment:</label>
+                    <select id="slope" name="slope" required>
+                      <option value="0">Upsloping</option>
+                      <option value="1">Flat</option>
+                      <option value="2">Downsloping</option>
+                    </select>
+                  </div>
+            
+                  
+            </div>
+            <div class="row">
+                <div class="form-group">
+                    <label for="thal">Thalassemia:</label>
+                    <select id="thal" name="thal" required>
+                      <option value="1">Normal</option>
+                      <option value="2">Fixed Defect</option>
+                      <option value="3">Reversible Defect</option>
+                    </select>
+                   
+                  </div>
+                 
+                  <button type="submit">Get Result</button>
+            </div>
+           
+           
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="shortcut icon" href="tool.webp" type="image/x-icon">
+    <title>HeartWise|Homepage</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            HeartWise.
+        </div>
+        <ul class="menu">
+            <li>Home</li>
+            <li>Advices</li>
+            <li>contact</li>
+            <li>Login</li>
+            <a href="formulaire.html"><li class="btn">Get Started</li></a>
+        </ul>
+    </nav>
+    <header class="header">
+    
+        <div class="content">
+            <h1>Stay One Step Ahead of Heart Disease with Smart Predictions</h1>
+            <p>Discover personalized insights tailored to your unique heart health. Gain valuable predictions to identify risks early and take proactive measures. </p>
+            <div class="btns">
+               <div class="btn">Join us</div>
+               <div class="btn1">Explore</div>
+            </div>
+        
+        </div>
+        <div class="image">
+            <img src="{{ url_for('static', filename='images/profile.jpg') }}" alt="">
+        </div>
+    </header>
+</body>
+</html>
