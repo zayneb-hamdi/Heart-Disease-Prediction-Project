@@ -36,10 +36,10 @@ The model was trained using `heart_disease_data.csv`, which includes clinical at
 2. **Install dependencies:**
    ```bash
    pip install -r requirements.txt
-3. **Set Up MongoDB:**
-  Install MongoDB on your system.  
-  Start the MongoDB service.  
-  Create a database named prediction with a collection named cases.  
+3. **Set Up MongoDB:**  
+  *Install MongoDB on your system.  
+  *Start the MongoDB service.  
+  *Create a database named prediction_db with a collection named cases.  
 4. **run the application:**
    ```bash
    python app.py
