@@ -46,5 +46,11 @@ The model was trained using `heart_disease_data.csv`, which includes clinical at
 6. **open your browser at:**
    ```bash
     http://localhost:5000/
-
+## Interfaces:
+![image](https://github.com/user-attachments/assets/9dce24d8-1cdf-4a69-a13d-63097339e69b)
+![image](https://github.com/user-attachments/assets/eb633416-bbe6-45bb-8b6f-aff6886289cf)
+![image](https://github.com/user-attachments/assets/1bcd452e-5740-4ce4-9f03-f1312722249d)
+![image](https://github.com/user-attachments/assets/229ad935-d558-4dc4-bb37-a3f2ed71af42)
+## Author:
+zayneb hamdi
 
