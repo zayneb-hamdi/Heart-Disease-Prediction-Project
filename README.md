@@ -26,22 +26,22 @@ The model was trained using `heart_disease_data.csv`, which includes clinical at
 - `age`, `sex`, `cp` (chest pain type), `chol` (cholesterol), `thalach` (max heart rate), and more
 - `target` : 1 = heart disease present, 0 = no heart disease
 
-## 📦 Project Structure
 
 ## 🚀 How to Run the App
 
 1. **clone the repository:**
-   git clone https://github.com/zayneb-hamdi/Heart-Disease-Prediction-Project.git
+   git clone https://github.com/zayneb-hamdi/Heart-Disease-Prediction-Project.git  
    cd Heart-Disease-Prediction-Project
 
-2.  **Install dependencies:**
-   [```bash]( pip install -r requirements.txt)
-  
-
+2. **Install dependencies:**
+   ```bash
+   ( pip install -r requirements.txt)
   
 3. **run the application:**
-   [```bash](python app.py)
+   ```bash
+    (python app.py)
 4. **open your browser at:**
-   [```bash](http://localhost:5000/)
+   ```bash
+    http://localhost:5000/
 
 
