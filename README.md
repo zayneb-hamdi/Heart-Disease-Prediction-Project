@@ -30,15 +30,12 @@ The model was trained using `heart_disease_data.csv`, which includes clinical at
 ## 🚀 How to Run the App
 
 1. **clone the repository:**
-   git clone https://github.com/zayneb-hamdi/Heart-Disease-Prediction-Project.git  
+   git clone https://github.com/zayneb-hamdi/Heart-Disease-Prediction-Project.git   
    cd Heart-Disease-Prediction-Project
 
 2. **Install dependencies:**
-   ```bash
    ( pip install -r requirements.txt)
-  
 3. **run the application:**
-   ```bash
     (python app.py)
 4. **open your browser at:**
    ```bash
