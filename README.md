@@ -34,10 +34,12 @@ The model was trained using `heart_disease_data.csv`, which includes clinical at
    cd Heart-Disease-Prediction-Project
 
 2. **Install dependencies:**
-   ( pip install -r requirements.txt)
-3. **run the application:**
-    (python app.py)
-4. **open your browser at:**
+   ```bash
+   pip install -r requirements.txt
+4. **run the application:**
+   ```bash
+   python app.py
+6. **open your browser at:**
    ```bash
     http://localhost:5000/
 
